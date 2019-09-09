@@ -27,39 +27,41 @@
                                         flag = 1;
                                         break;
                                 }
-                      }
-                if(flag == 0){
-                        document.getElementById("result").innerHTML = "<strong>No vowel found.</strong>";
-                }
+                        }
+                        if(flag == 0){
+                                document.getElementById("result").innerHTML = "<strong>No vowel found.</strong>";
+                        }
                }
               }
         </script>
+
+        <style>
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;   
+        }
+        input[type=submit] {
+            width: 25%;
+            background-color: #af4c55;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+        }
+        div{
+            background-color: #d8bfbf;
+            width: 50%;
+            padding: 10px;
+        }
+        </style>
 </head>
-<style>
-input[type=text]{
-    width: 100%;
-    padding: 12px 20px;   
-}
-input[type=submit] {
-    width: 25%;
-    background-color: #af4c55;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-}
-div{
-    background-color: #d8bfbf;
-    width: 50%;
-    padding: 10px;
-}
-</style></head>
 <body style="background-color:#e0dcd5">
-<main style="max-width: 900px; margin: auto;">
- <center>
+        <main style="max-width: 900px; margin: auto;">
+        <center>
     <input type="text" id="str" placeholder="Enter Sting/Number">
     <input type="submit" onclick="runScript();" value="Submit" name="sub">
  <h2 style="color:#af4c55">Result:</h2>
  <div id="result"></div>
+                
  <p style="margin:320px">&copy;2019 MVJCE. All rights are reserved.</p>
  </body>
 </html>
