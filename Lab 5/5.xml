@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="stylecss.css"?>
+<VTU>
+    <Student>
+        <USN>1MJ16CS107</USN>
+        <Name>Tanmay</Name>
+        <College>MVJCE</College>
+        <Branch>CSE</Branch>
+        <Year>2012</Year>
+        <Email>tanmaypatil@xyz.com</Email>
+    </Student>
+    <Student>
+        <USN>1MJ16CS100</USN>
+        <Name>Ninja</Name>
+        <College>MVJCE</College>
+        <Branch>CSE</Branch>
+        <Year>2013</Year>
+        <Email>ninjapatil@xyz.com</Email>
+    </Student>
+    <Student>
+        <USN>1MJ16CS007</USN>
+        <Name>Bond</Name>
+        <College>MVJCE</College>
+        <Branch>CSE</Branch>
+        <Year>2014</Year>
+        <Email>bondpatil@xyz.com</Email>
+    </Student>
+</VTU>

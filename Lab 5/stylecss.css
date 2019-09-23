@@ -1,0 +1,24 @@
+VTU{
+	background-color: #ffffff;
+	width: 100%
+}
+Student{
+	display: block;
+	margin-bottom: 30pt;
+	margin-left: 0pt;
+}
+USN, Name{
+	color: #ff9900;
+	font-size: 14pt;
+}
+College, Branch, Year{
+	display: block;
+	color: #000000;
+	margin-left: 20pt;
+}
+Email{
+  display: block;
+	color: #000000;
+	margin-left: 20pt;
+  font-style: italic;
+}
